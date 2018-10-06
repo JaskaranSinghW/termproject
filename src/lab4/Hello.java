@@ -1,4 +1,5 @@
-package lab4;
+package lab_4;
+
 
 public class Hello {
 
@@ -10,9 +11,12 @@ public class Hello {
 		hello.methodC();
 	}
 
-	public void methodA(void ) { }
+	public void methodA(void ) { 
+	System.out.println("first scenario");}
 
-	public void methodB(void) { }
+	public void methodB(void) { 
+	System.out.println("User B's changes to Method C(By Jaskaran Singh)")}
 
-	public void methodC(void) { }
+	public void methodC(void) { 
+	System.out.println("User A's changes to method C");}
 }
